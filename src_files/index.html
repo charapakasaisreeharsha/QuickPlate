@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo_qp.png" type="image/x-icon">
+    <title>QuickPlate</title>
+</head>
+<body>
+<div class="bg">
+    <p></p>
+    <div class="nav-bar">
+        <ul>
+            <li><i class="fa-solid fa-house"></i></li>
+            <li>Add Resturant +</li>
+            <a href="signup.html"><li>Signup <i class="fa-solid fa-user-plus"></i></li></a>
+            <a href="login.html"><li>Login <i class="fa-solid fa-right-to-bracket"></i></li></a>
+        </ul>
+    </div>
+    <h1 class="title">QuickPlate</h1>
+    <h2 class="sub-title">Discover the best food & drinks in your Place</h2>
+    <div class="search">
+        <select class="search-select" id="searchCategory">
+            <option value="all">Category</option>
+            <option value="restaurant">Restaurant</option>
+            <option value="cuisine">Cuisine</option>
+            <option value="dish">Dish</option>
+        </select>
+        <input placeholder=" Search for restaurant, cuisine, or a dish" class="search-input" id="searchInput">
+        <button class="search-icon" onclick="performSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    
+    
+</div>
+<div class="shop-section">
+    <div class="box1 box">
+        <div class="box-content">
+            <div class="box-img1"><p></p></div>
+        <p class="p1">Order Online</p>
+        <p class="p2">Stay Home Order to your doorstep</p>
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <div class="box-img2"><p></p></div>
+        <p class="p1">Dining</p>
+        <p class="p2">View the City's favorite dining venues</p>
+        </div>
+    </div>
+</div>
+<h2>Collections</h2>
+<h3>Explore curated lists of top restaurants, cafes, pubs, and bars in Vadodara.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=plnfIj7dkJE&list=RDMM&index=22&ab_channel=TheWeeknd-Topic"> All Collections  <i class="fa-solid fa-chevron-right"></i></i></a></h3>
+<div class="collections-section">
+    <div class="boxcs">
+            <div class="cs-img1"><p class="cs-1">16 Gujarati Meals </p><br><a href="">17 places <i class="fa-solid fa-chevron-right"></i></i></a></div>
+    </div>
+    <div class="boxcs">
+        <div class="cs-img2"><p class="cs-2">13 Asian Restaurants </p><br><a href="">7 places <i class="fa-solid fa-chevron-right"></i></i></a></div>
+    </div>
+    <div class="boxcs">
+        <div class="cs-img3"><p class="cs-2">6 Best Luxury Dinings </p><br><a href="">5 places <i class="fa-solid fa-chevron-right"></i></i></a></div>
+    </div>
+    <div class="boxcs">
+        <div class="cs-img4"><p class="cs-2">8 For South Indian </p><br><a href="">4 places <i class="fa-solid fa-chevron-right"></i></i></a></div>
+    </div>
+</div>
+<br>
+<br>
+<h4>Popular localities in and around  <a href="" class="Vadodara">Vadodara</a></h4>
+<div class="places">
+    <div class="place1">
+        <div class="alakapuri">
+            Alakapuri <a href="https://www.youtube.com/"><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>260 Places</p>
+    </div>
+    <div class="place2">
+        <div class="vadivadi">
+            Vadivadi  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>134 Places</p>
+    </div>
+    <div class="place3">
+        <div class="diwalipura">
+            Diwalipura <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>120 Places</p>
+    </div>   
+</div>
+<div class="places-rw2">
+    <div class="place4">
+        <div class="akota">
+            Akota  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>160 Places</p>
+    </div>
+    <div class="place5">
+        <div class="gotri">
+            Gotri  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>141 Places</p>
+    </div>
+    <div class="place6">
+        <div class="gorwa">
+            Gorwa  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>53 Places</p>
+    </div>   
+</div>
+<div class="places-rw3">
+    <div class="place7">
+        <div class="Subhanpura">
+            Subhanpura  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>88 Places</p>
+    </div>
+    <div class="place8">
+        <div class="sayajipura">
+            Sayajipura  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>176 Places</p>
+    </div>
+    <div class="place9">
+        <div class="nizampura">
+            Nizampura <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>89 Places</p>
+    </div>   
+</div>
+<div class="places-rw4">
+    <div class="place10">
+        <div class="mandvi">
+            Mandvi  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>194 Places</p>
+    </div>
+    <div class="place11">
+        <div class="suryanagar">
+            Suryanagar  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>11 Places</p>
+    </div>
+    <div class="place12">
+        <div class="tarsali">
+            Tarsali  <a href=""><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <p>72 Places</p>
+    </div>   
+</div>
+<br>
+<br>
+<br>
+<br><br>
+<div class="feedback">
+    <div class="logo-feedback"><img src="logo2.png" alt="Image"></div>
+    <div class="content-feedback"><h5>Rate our App <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></h5>
+    <h6>Feedback <i class="fa-solid fa-message"></i></h6>
+    <textarea name="feedback" id="" cols="30" rows="10">𝖸𝖮𝖴 𝖢𝖠𝖭 𝖳𝖸𝖯𝖤 𝖧𝖤𝖱𝖤 𝖥𝖤𝖤𝖣𝖡𝖠𝖢𝖪 𝖥𝖮𝖱𝖦𝖤𝖳 𝖠𝖡𝖮𝖴𝖳 𝖲𝖴𝖡𝖬𝖨𝖲𝖲𝖨𝖮𝖭😀</textarea>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+<footer>
+    <div class="foot-panel1">
+       <a href=""><i class="fa-solid fa-chevron-up"></i></a> 
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            <p class="fh1">ABOUT QuickPlate</p>
+            <p>Who We Are</p>
+            <p>Blog</p>
+            <p>Work With Us</p>
+            <p>Investor Relations</p>
+            <p>Report Fraud</p>
+            <p>Contact Us</p>  
+        </ul>
+        <ul>
+            <p class="fh1">QuickPlateVERSE</p>
+            <p>QuickPlate</p>
+            <p>Blinkit</p>
+            <p>Feeding India</p>
+            <p>Hyperpure</p>
+            <p>For join</p> 
+        </ul>
+        <ul>
+            <p class="fh1">FOR RESTAURANTS</p>
+            <p>Partner With Us</p>
+            <p>Apps For You</p> 
+            <br>
+                <p class="fh1">FOR ENTERPRISE</p>
+                <p>QuickPlate for Enterprise</p>
+            
+        </ul>
+        <ul>
+            <p class="fh1">LEARN MORE</p>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p>Terms</p>
+            <p>Sitemaps</p>
+        </ul>
+        <ul>
+            <p class="fh1">SOCIAL LINKS</p>
+            <div class="social-links"><p><i class="fa-brands fa-instagram"></i>&nbsp;<i class="fa-brands fa-linkedin"></i>&nbsp;<i class="fa-brands fa-x-twitter"></i>&nbsp;<i class="fa-brands fa-youtube"></i>&nbsp;<i class="fa-brands fa-facebook"></i></p>
+            </div>
+            <p class="">-----------x---------</p>
+        </ul>
+    </div>
+    <div class="foot-panel3">
+        <div class="bottom-title">-QuickPlate-</div>
+    </div>
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Conditions of use</a>
+            <a>Privacy Notice</a>
+            <a>Your adds choices</a>
+        </div>
+        <div class="copyright">
+            © 2024-2025, quickplate.com, Inc. or its affiliates
+        </div>
+    </div>
+</footer>
+</html>

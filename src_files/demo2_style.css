@@ -1,0 +1,235 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ 
+ /*nav-bar*/
+ .nav-bar {
+    background-color: #ff9925;
+    height: 3rem;
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(192, 189, 189);
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bar ul li {
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav-bar ul li.homie {
+    margin-right: auto;
+  }
+  
+  .nav-bar ul li.h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-family: "Babylonica", cursive;
+    font-size: 3rem;
+    color: black;
+    padding-left: 25rem;
+    cursor: default;
+    font-weight: 400;
+  }
+  
+  .cart-icon {
+    margin-left: auto;
+    font-size: 1rem;
+    padding-top: .3rem;
+  }
+  
+  .fa-solid {
+    margin-right: 5px;
+  }
+  
+  .fa-house {
+    color: rgb(0, 0, 0);
+    padding-left: 2.5rem;
+    font-size: 1rem;
+  }
+  
+  .fa-cart-shopping {
+    color: rgb(0, 0, 0); 
+    background-color: #fe9a17;
+    border-radius: 3px;
+  }
+  
+/*cart-panel*/
+.cart {
+    background-color: orange;
+    padding: 20px;
+    position: relative;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .cart button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
+/*containers*/
+ .container {
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        flex-wrap: wrap;
+    }
+    .item {
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 5px rgb(216, 209, 209);
+        transition: box-shadow 0.3s ease;
+        flex: 1 1 15rem;
+    }
+    /*img-1*/
+    .item .img1 {
+        background-image: url('image1.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+    /*img2*/
+    .item .img2 {
+        background-image: url('image2.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+    /*img3*/
+    .item .img3 {
+        background-image: url('image3.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+    /*img4*/
+    .item .img4 {
+        background-image: url('image4.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+    /*img5*/
+    .item .img5 {
+        background-image: url('image5.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+    /*img6*/
+    .item .img6 {
+        background-image: url('image6.jpg');
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 14rem;
+        border-radius: 5px;
+    }
+   /*img7*/
+   .item .img7 {
+    background-image: url('image7.jpg');
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 14rem;
+    border-radius: 5px;
+    }
+   /*img8*/
+   .item .img8 {
+    background-image: url('image8.jpg');
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 14rem;
+    border-radius: 5px;
+    }
+    .item-details {
+        margin-top: 10px;
+    }
+    .order-button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+/*cart*/
+    .cart {
+        display: none;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+    }
+    .cart-item {
+        margin-bottom: 10px;
+    }
+    .cart-item button {
+        margin-left: 10px;
+    }
+    .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        /* Add styles for the cart icon, such as size and background color */
+    }
+    
+    /* Additional CSS for the cart panel */
+    .cart {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        /* Adjust other styles as needed */
+    }
